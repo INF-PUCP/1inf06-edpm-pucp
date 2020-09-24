@@ -39,4 +39,4 @@ Perú durante el ciclo 2020-2.
 
 ## Informes
 * [Instalación de VirtualBox y Linux Mint 20 Ulyana](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/blob/master/informes/informe01.pdf)
-** [Instalación de Ruby, Vim y un ejemplo de programa](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/informes/informe02)
+* [Instalación de Ruby, Vim y un ejemplo de programa](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/informes/informe02)
