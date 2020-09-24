@@ -45,6 +45,34 @@ int main(void) {
   assert(Longitud(*aux) == 3);
   assert(Head(*aux) == 16);
   assert(Tail(*aux) == 18);
+
+  EliminarIzquierda(&lista);
+  assert(Longitud(lista) == 2);
+  assert(Head(lista) == 2);
+  assert(Tail(lista) == 3);
+
+  EliminarDerecha(&lista);
+  assert(Longitud(lista) == 1);
+  assert(Head(lista) == 2);
+  assert(Tail(lista) == 2);
+
+  EliminarIzquierda(&lista);
+  assert(EsListaVacia(lista));
+  assert(Longitud(lista) == 0);
+
+  EliminarDerecha(aux);
+  assert(Longitud(*aux) == 2);
+  assert(Head(*aux) == 16);
+  assert(Tail(*aux) == 69);
+
+  EliminarIzquierda(aux);
+  assert(Longitud(*aux) == 1);
+  assert(Head(*aux) == 69);
+  assert(Tail(*aux) == 69);
+
+  EliminarDerecha(aux);
+  assert(EsListaVacia(*aux));
+  assert(Longitud(*aux) == 0);
   printf("Todos los casos estan OK.\n");
   exit(EXIT_SUCCESS);
   return 0;
