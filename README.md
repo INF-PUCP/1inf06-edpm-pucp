@@ -21,8 +21,8 @@ Perú durante el ciclo 2020-2.
 * [Conjuntos Finitos](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase05/conjuntos_finitos)
 * [Listas Enlazadas](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase05/listas_enlazadas)
 * [Listas Doblemente Enlazadas](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase06/lista_doblemente_enlazada)
-<!--* [Pilas]
-* [Colas]
+* [Pilas](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase07)
+<!--* [Colas]
 * [Árboles Binarios]
 * [Árboles Generales]
 * [Árboles de Búsqueda Binaria]
