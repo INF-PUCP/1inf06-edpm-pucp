@@ -1,0 +1,22 @@
+especificacion CADENAS++[ELEM=]
+
+usa CADENA+[ELEM=], natural
+
+tipos cadena
+
+operaciones
+  cv: -> cadena (constructora)
+  ai: elemento, cadena -> cadena (constructora)
+  qpre: cadena, natural -> cadena
+
+variables
+  s: cadena
+  n: natural
+  e: elemento
+
+ecuaciones
+qpre(cv, n) = cv
+qpre(ai(e, s), n) = ai(e, s) <- (n = 0)
+qpre(ai(e, s), n) = qpre(s, n - 1) <- (n > 0)
+
+fespecificacion
