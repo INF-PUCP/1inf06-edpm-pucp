@@ -34,6 +34,7 @@ class DoubleLinkedList
     return self.tail.value
   end
 
+  # Push an elemento after the tail
   def AddRight value
     node = Node.new value
     if self.head == nil
@@ -47,6 +48,7 @@ class DoubleLinkedList
       self.length += 1
   end
 
+  # Push an element before the head
   def AddLeft value
     node = Node.new value
     if self.head == nil
@@ -60,6 +62,7 @@ class DoubleLinkedList
     self.length += 1
   end
 
+  # Removes the tail node
   def RemoveRight
     raise "Empty list" unless self.length > 0
     if self.length == 1
@@ -71,6 +74,7 @@ class DoubleLinkedList
     self.length -= 1
   end
 
+  # Removes the head node
   def RemoveLeft
     raise "Empty list" unless self.length > 0
     if self.length == 1
@@ -82,12 +86,18 @@ class DoubleLinkedList
     self.length -= 1
   end
 
+  # Removes a node with value target in the list. If our target is in our head,
+  # then we are going to remove it first being aware of not having a unitary list.
+  # Otherwise, we are going to look for the node that is inmediately before of our
+  # target and then, we are going to link this one and the one that is inmediately
+  # after our target.
   def Remove target
     raise "Empty list" unless self.length > 0
     if target == self.head.value
       if self.head.next == nil
         self.head = self.tail = nil
       else
+        self.head.next.prev = nil
         self.head = self.head.next
       end
       self.length -= 1
@@ -97,12 +107,17 @@ class DoubleLinkedList
         current = current.next
       end
       if current != nil
+        if current.next.next != nil
+          current.next.next.prev = current
+        end
         current.next = current.next.next
         self.length -= 1
       end
     end
   end
 
+  # Prints the list from head to tail. The variable cnt counts the number of
+  # nodes we have analized to print the characters that represent the links correctly.
   def Print
     if self.head == nil
       puts "Empty list"
@@ -111,7 +126,7 @@ class DoubleLinkedList
       cnt = 0
       while current != nil
         if cnt > 0
-          print " -> "
+          print " <-> "
         end
         print current.value
         current = current.next
