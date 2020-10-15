@@ -26,13 +26,11 @@ Perú durante el ciclo 2020-2.
 * [Deque](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase08/doble_cola)
 * [Árboles Binarios](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase09/arbol_binario)
 <!--* [Árboles Generales]
-* [Árboles de Búsqueda Binaria]
-* [Tabla de Hash]
-* [Tabla Dispersa]
-* [Cola de Prioridad]
-* [Montículo]
-* [Grafos]
--->
+* [Árboles de Búsqueda Binaria]-->
+* [Tabla Hash](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase12)
+<!--* [Heaps / Cola de Prioridad]
+* [Grafos]-->
+
 
 ## Matemáticas
 * [Combinatoria y Teoría de Números](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/blob/master/clases/clase01/2020-09-02-Clase-01.pdf)
