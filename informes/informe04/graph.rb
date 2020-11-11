@@ -43,10 +43,7 @@ class Graph
   def RemoveNode id
     raise "Node doesn't exist" unless self.NodeExists(id)
 
-    # Remove the node from the graph
     self.nodes.delete(id);
-
-    # For each other node in the graph, I
     self.nodes.each do |node_id, node_ptr|
       if node_ptr.neighbors.key?(id)
         node_ptr.neighbors.delete(id)
