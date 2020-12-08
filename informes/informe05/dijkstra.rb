@@ -62,22 +62,3 @@ def PrintPath path
   end
   puts ""
 end
-
-graph = Graph.new(5)
-graph.AddEdge(0, 1, 10)
-graph.AddEdge(0, 3, 5)
-graph.AddEdge(1, 3, 2)
-graph.AddEdge(1, 2, 1)
-graph.AddEdge(2, 4, 4)
-graph.AddEdge(3, 1, 3)
-graph.AddEdge(3, 2, 9)
-graph.AddEdge(3, 4, 2)
-graph.AddEdge(4, 0, 7)
-graph.AddEdge(4, 2, 6)
-
-distance, parent = Dijkstra(graph, 0)
-PrintPath(GetPath(0, parent))
-PrintPath(GetPath(1, parent))
-PrintPath(GetPath(2, parent))
-PrintPath(GetPath(3, parent))
-PrintPath(GetPath(4, parent))
