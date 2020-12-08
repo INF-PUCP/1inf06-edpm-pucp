@@ -39,8 +39,9 @@ graph.AddEdge(4, 0, 7)
 graph.AddEdge(4, 2, 6)
 
 distance, parent = Dijkstra(graph, 0)
-PrintPath(GetPath(0, parent))
-PrintPath(GetPath(1, parent))
-PrintPath(GetPath(2, parent))
-PrintPath(GetPath(3, parent))
-PrintPath(GetPath(4, parent))
+
+for i in 0 .. graph.Size - 1
+  puts "Distancia minima desde 0 hacia #{i}: #{distance[i]}"
+  print "Camino: "
+  PrintPath(GetPath(i, parent))
+end
