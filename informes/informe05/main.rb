@@ -26,22 +26,30 @@ def PrintPath path
   puts ""
 end
 
-graph = Graph.new(5)
-graph.AddEdge(0, 1, 10)
-graph.AddEdge(0, 3, 5)
-graph.AddEdge(1, 3, 2)
-graph.AddEdge(1, 2, 1)
-graph.AddEdge(2, 4, 4)
-graph.AddEdge(3, 1, 3)
-graph.AddEdge(3, 2, 9)
-graph.AddEdge(3, 4, 2)
-graph.AddEdge(4, 0, 7)
-graph.AddEdge(4, 2, 6)
+def main
+  puts "Report 5 - Dijkstra's algorithm"
+  puts ""
 
-distance, parent = Dijkstra(graph, 0)
+  graph = Graph.new(5)
+  graph.AddEdge(0, 1, 10)
+  graph.AddEdge(0, 3, 5)
+  graph.AddEdge(1, 3, 2)
+  graph.AddEdge(1, 2, 1)
+  graph.AddEdge(2, 4, 4)
+  graph.AddEdge(3, 1, 3)
+  graph.AddEdge(3, 2, 9)
+  graph.AddEdge(3, 4, 2)
+  graph.AddEdge(4, 0, 7)
+  graph.AddEdge(4, 2, 6)
 
-for i in 0 .. graph.Size - 1
-  puts "Distancia minima desde 0 hacia #{i}: #{distance[i]}"
-  print "Camino: "
-  PrintPath(GetPath(i, parent))
+  distance, parent = Dijkstra(graph, 0)
+
+  for i in 0 .. graph.Size - 1
+    puts "Shortest path from 0 to #{i}: #{distance[i]}"
+    print "Path: "
+    PrintPath(GetPath(i, parent))
+    puts ""
+  end
 end
+
+main
