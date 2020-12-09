@@ -38,27 +38,3 @@ def Dijkstra graph, origin
 
   return distance, parent
 end
-
-def GetPath u, parent
-  path = []
-  while u != -1
-    path.push(u)
-    u = parent[u]
-  end
-  len = path.length
-  for i in 0 .. len / 2 - 1
-    path[i], path[len - 1 - i] = path[len - 1 - i], path[i]
-  end
-  return path
-end
-
-def PrintPath path
-  len = path.length
-  for i in 0 .. len - 1
-    if i > 0
-      print " -> "
-    end
-    print "#{path[i]}"
-  end
-  puts ""
-end
