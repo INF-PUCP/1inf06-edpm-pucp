@@ -1,4 +1,4 @@
-# 1INF06 - Estructura de Datos y Programación Metódica
+# 1INF06 Estructura de Datos y Programación Metódica
 
 Estructura de Datos y Programación Metódica es un curso en el cual el estudiante
 aprenderá el calculo de programas como la alternativa a la programación intuitiva.
