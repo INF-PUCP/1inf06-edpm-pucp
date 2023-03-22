@@ -1,4 +1,9 @@
 # 1INF06 Estructura de Datos y Programación Metódica
+![](https://img.shields.io/github/issues/ManuelLoaizaVasquez/1inf06-edpm-pucp)
+![](https://img.shields.io/github/forks/ManuelLoaizaVasquez/1inf06-edpm-pucp)
+![](https://img.shields.io/github/stars/ManuelLoaizaVasquez/1inf06-edpm-pucp)
+
+<img src="https://imgs.xkcd.com/comics/tree.png" width="100%">
 
 Estructura de Datos y Programación Metódica es un curso en el cual el estudiante
 aprenderá el calculo de programas como la alternativa a la programación intuitiva.
@@ -15,6 +20,17 @@ Perú durante el ciclo 2020-2.
 * Contruir programas usando el concepto de invariante.
 * Manejar las técnicas de derivación de programas eficientes.
 * Obtener la experiencia práctica en uso de lenguajes de programación de diferentes paradigmas.
+
+## Organización de las carpetas
+
+`examenes` - contiene los enunciados y soluciones del examen parcial y final del curso.
+
+`laboratorios` - contiene los enunciados y soluciones de los laboratorios del curso.
+
+`clases` - contiene implementaciones.
+
+`informes` - contiene los cinco informes que se deben presentar a lo largo del curso.
+En particular, estuve en el grupo 0 
 
 ## Tipo Abtracto de Datos
 
@@ -37,3 +53,5 @@ Perú durante el ciclo 2020-2.
 * [Instalación de VirtualBox y Linux Mint 20 Ulyana](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/blob/master/informes/informe01.pdf)
 * [Instalación de Ruby, Vim y un ejemplo de programa](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/informes/informe02)
 * [Estructura básica de un programa, estructuras enlazadas dinámicas y problemas de entrevistas en Ruby](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/informes/informe03)
+* []()
+* []()
