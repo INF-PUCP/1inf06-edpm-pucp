@@ -27,31 +27,34 @@ Perú durante el ciclo 2020-2.
 
 `laboratorios` - contiene los enunciados y soluciones de los laboratorios del curso.
 
-`clases` - contiene implementaciones.
+`clases` - contiene implementaciones en múltiples lenguajes de las estructuras de datos vistas a lo largo del curso.
 
-`informes` - contiene los cinco informes que se deben presentar a lo largo del curso.
-En particular, estuve en el grupo 0 
+`informes` - contiene los cinco informes que presenté a través del curso.
+En particular, formé parte del Grupo 0 con proyecto de curso `Ruby: Grafos`.
+
+`teoria-de-grafos` - contiene teoría y ejercicios para absorber el material
+requerido para el proyecto del curso.
+Basado en MATH-260(a) Discrete Mathematics dictado
+por Maryna Viazovska
+en EPFL
+durante el ciclo Spring 2018.
 
 ## Tipo Abtracto de Datos
 
-* [Conjuntos Finitos](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase05/conjuntos_finitos)
-* [Listas Enlazadas](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase05/listas_enlazadas)
-* [Listas Doblemente Enlazadas](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase06/lista_doblemente_enlazada)
-* [Pilas](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase07)
-* [Colas](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase08/cola)
-* [Deque](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase08/doble_cola)
-* [Árboles Binarios](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase09/arbol_binario)
-* [Arboles Generales](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase10)
-* [Tabla Hash](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/clases/clase12)
-
-
-## Matemáticas
-* [Combinatoria y Teoría de Números](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/blob/master/clases/clase01/2020-09-02-Clase-01.pdf)
-* [Teoría de Grafos](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/teoria_de_grafos) 
+* [Conjuntos Finitos](#)
+* [Listas Enlazadas](#)
+* [Listas Doblemente Enlazadas](#)
+* [Pilas](#)
+* [Colas](#)
+* [Deque](#)
+* [Árboles Binarios](#)
+* [Árboles Generales](#)
+* [Árboles Binarios de Búsqueda](#)
+* [Tabla Hash](#)
 
 ## Informes
-* [Instalación de VirtualBox y Linux Mint 20 Ulyana](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/blob/master/informes/informe01.pdf)
-* [Instalación de Ruby, Vim y un ejemplo de programa](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/informes/informe02)
-* [Estructura básica de un programa, estructuras enlazadas dinámicas y problemas de entrevistas en Ruby](https://github.com/ManuelLoaizaVasquez/1inf06-estructura-de-datos-y-programacion-metodica-pucp/tree/master/informes/informe03)
-* []()
-* []()
+1. [Instalación de VirtualBox y Linux Mint 20 Ulyana](#)
+2. [Instalación de Ruby, Vim y un ejemplo de programa](#)
+3. [Estructura básica de un programa, estructuras enlazadas dinámicas y problemas de entrevistas en Ruby](#)
+4. [Implementación de grafos usando un mapa, lista de adyacencia y matriz de adyacencia en Ruby](#)
+5. [Implementación de algoritmos en grafos en Ruby](#)
